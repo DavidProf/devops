@@ -10,7 +10,7 @@ DevOps repository with information, tutorials and configurations related to DevO
 Both links below have the same doc only displayed in different ways:
 
 -   [Docs wiki](https://github.com/Xarlyu/devops/wiki)
--   [Docs WebSite *Unavailable*]()
+-   [Docs WebSite *Unavailable*](https://Xarlyu.github.io/devops)
 
 ## How to contribute
 
@@ -31,6 +31,20 @@ To add a new module:
         -   Config Files: `modules/mongodb/config`
         -   backup: `modules/mongodb/backup`
 -   Then you will only need to add your files
+-   Commit changes (please use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/))
+
+### Update the wiki
+
+The wiki holds all the documentation about the project:
+-   Tutorial
+-   Articles
+-   Explanations
+
+When updating the wiki you just need to keep in mind the following:
+
+-   The wiki structure
+    -   Still need to define
+-   ???
 
 Tips:
 -   Do not add readmes or any doc here, please edit the wiki
@@ -41,3 +55,13 @@ Tips:
 | Term  | Definition  |
 | ------------ | ------------ |
 | Module  | A set of items for a particular subject or tool  |
+
+---
+
+## Project structure
+
+| Folder  | Definition  |
+| ------------ | ------------ |
+| /modules  | contains all modules  |
+| /www  | contains website files for docsify  |
+| /.github  | contains github configuration files  |
