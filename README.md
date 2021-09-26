@@ -33,6 +33,11 @@ To add a new module:
 -   Then you will only need to add your files
 -   Commit changes (please use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/))
 
+Tips:
+-   Do not add readmes or any doc here, please edit the wiki
+-   It's recommended to add comments in files or configurations that support it
+-   Avoid to add base docker images like nodejs, kafka, rabbit here.
+
 ### Update the wiki
 
 The wiki holds all the documentation about the project:
@@ -45,10 +50,6 @@ When updating the wiki you just need to keep in mind the following:
 -   The wiki structure
     -   Still need to define
 -   ???
-
-Tips:
--   Do not add readmes or any doc here, please edit the wiki
--   It's recommended to add comments in files or configurations that support it
 
 ## Glossary
 
