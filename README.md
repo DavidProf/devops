@@ -28,13 +28,14 @@ To add a new module:
         -   Docker: `modules/mongodb/docker`
         -   docker-compose: `modules/mongodb/docker-compose`
         -   Kubernetes: `modules/mongodb/kubernetes`
+        -   Okteto: `modules/mongodb/okteto`
         -   Config Files: `modules/mongodb/config`
         -   backup: `modules/mongodb/backup`
 -   Then you will only need to add your files
 -   Commit changes (please use [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/))
 
 Tips:
--   Do not add readmes or any doc here, please edit the wiki
+-   Do not add readme or any doc here, please edit the wiki
 -   It's recommended to add comments in files or configurations that support it
 -   Avoid to add base docker images like nodejs, kafka, rabbit here.
 
